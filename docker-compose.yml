@@ -1,0 +1,13 @@
+services:
+  
+  back:
+    image: gilvan/php-8.2-apache-oracle:0.0.2
+    working_dir: /var/www/html  
+    volumes:
+       - "./:/var/www/html"
+    container_name: semed
+    ports:
+      - "8080:80"
+       
+             
+
