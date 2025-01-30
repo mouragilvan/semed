@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "laravel/framework": "^11.0",
-        "php-open-source-saver/jwt-auth": "^2.3"
+        "tymon/jwt-auth": "^2.1"
     },
     "license": "MIT",
     "autoload": {
