@@ -3,7 +3,7 @@
     "description": "Classes e Funcionalidades compartilhadas",
     "type": "library",
     "require": {
-        "laravel/framework": "^11.0",
+        "laravel/framework": "^11.0|^10",
         "tymon/jwt-auth": "^2.1"
     },
     "license": "MIT",
