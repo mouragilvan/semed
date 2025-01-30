@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Perfil extends Model
 {
-    
+    protected $connection = 'segsemed';
     protected $table = 'TB_PERFIL';
     protected $primaryKey = 'PERFIL_COD_PK';
 

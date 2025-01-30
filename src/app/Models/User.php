@@ -7,6 +7,8 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 
 class User extends Authenticatable implements JWTSubject {
 
+    protected $connection = 'segsemed';
+
     protected $table = 'TB_USUARIOS';
 
     protected $primaryKey = 'USU_COD_PK';

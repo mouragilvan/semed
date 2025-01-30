@@ -9,7 +9,8 @@ class UsuarioPerfil extends Model
 {
     use HasFactory;
 
-
+    protected $connection = 'segsemed';
+    
     // Nome da tabela
     protected $table = 'TB_USUARIO_PERFIL';
 
