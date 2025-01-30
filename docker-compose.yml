@@ -1,7 +1,7 @@
 services:
   
   back:
-    image: gilvan/php-8.2-apache-oracle:0.0.2
+    image: gilvan/php-8.2-apache-oracle:0.0.3
     working_dir: /var/www/html  
     volumes:
        - "./:/var/www/html"
